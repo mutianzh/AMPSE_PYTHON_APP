@@ -18,7 +18,7 @@ Create a new environment:\
 `virtualenv --system-site-packages ~/venvs/ampse_gui`\
 Finally, activate the environment:\
 `source ~/venvs/ampse_gui/bin/activate`\
-Go to directory AMPSE_GUI and type:\
+Go to directory of AMPSE_GUI and type:\
 `pip install -r requirements.txt`\
 Install wxPython library:\
 `pip install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/centos-7 wxPython`
