@@ -15,9 +15,9 @@ Install prerequisite packages using the following command:\
 Use the following command to install and upgrade Virtualenv:\
 `sudo pip3 install --upgrade virtualenv`\
 Create a new environment:\
-`virtualenv --system-site-packages ~/venvs/ampse_ui`\
+`virtualenv --system-site-packages ~/venvs/ampse_gui`\
 Finally, activate the environment:\
-`source ~/venvs/ampse_ui/bin/activate`\
+`source ~/venvs/ampse_gui/bin/activate`\
 Go to directory AMPSE_UI and type:\
 `pip install -r requirements.txt`\
 Install wxPython library:\
@@ -25,7 +25,7 @@ Install wxPython library:\
 
 ### Step 3: Launch the App
 In the future, any time if you'd like to launch the app, make sure you activate the virtual environment first:\
-`source ~/venvs/ampse_ui/bin/activate`\
+`source ~/venvs/ampse_gui/bin/activate`\
 Then go to the directory of AMPSE_UI and type:\
 `python interface_v6.py`
 
