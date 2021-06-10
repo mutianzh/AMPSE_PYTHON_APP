@@ -6,7 +6,7 @@ This is a guidence for installing and launching AMPSE on CentOS 7.
 - Have XLaunch or VNC Viewer to show the graphical user interface
 - Access to a command line/terminal window
 - Access to the root user
-### STEP 1: Clone the repo:
+### Step 1: Clone the Repo:
 `git clone https://github.com/mutianzh/AMPSE_PYTHON_APP.git`
 ### Step 2: Install Required Packages
 If you don't have python3 and pip installed, install them:\
