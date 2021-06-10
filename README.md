@@ -26,7 +26,7 @@ Install wxPython library:\
 ### Step 3: Launch the App
 In the future, any time if you'd like to launch the app, make sure you activate the virtual environment first:\
 `source ~/venvs/ampse_ui/bin/activate`\
-Then go to the directory of POSH_UI and type:\
+Then go to the directory of AMPSE_UI and type:\
 `python interface_v6.py`
 
 
