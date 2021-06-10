@@ -6,12 +6,14 @@ This is a guidence for installing and launching AMPSE on CentOS 7.
 - Have XLaunch or VNC Viewer to show the graphical user interface
 - Access to a command line/terminal window
 - Access to the root user
-### Step 1: Install Required Packages
+### STEP 1: Clone the repo:
+`git clone https://github.com/mutianzh/AMPSE_PYTHON_APP.git`
+### Step 2: Install Required Packages
 If you don't have python3 and pip installed, install them:\
 `sudo yum -y install python3 python3-pip`\
 Install prerequisite packages using the following command:\
 `sudo yum -y install SDL`
-### Step 2: Create a Virtual Environment
+### Step 3: Create a Virtual Environment
 Use the following command to install and upgrade Virtualenv:\
 `sudo pip3 install --upgrade virtualenv`\
 Create a new environment:\
@@ -23,7 +25,7 @@ Go to directory of AMPSE_GUI and type:\
 Install wxPython library:\
 `pip install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/centos-7 wxPython`
 
-### Step 3: Launch the App
+### Step 4: Launch the App
 In the future, any time if you'd like to launch the app, make sure you activate the virtual environment first:\
 `source ~/venvs/ampse_gui/bin/activate`\
 Then go to the directory of AMPSE_GUI and type:\
