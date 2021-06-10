@@ -18,7 +18,7 @@ Create a new environment:\
 `virtualenv --system-site-packages ~/venvs/ampse_gui`\
 Finally, activate the environment:\
 `source ~/venvs/ampse_gui/bin/activate`\
-Go to directory AMPSE_UI and type:\
+Go to directory AMPSE_GUI and type:\
 `pip install -r requirements.txt`\
 Install wxPython library:\
 `pip install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/centos-7 wxPython`
@@ -26,7 +26,7 @@ Install wxPython library:\
 ### Step 3: Launch the App
 In the future, any time if you'd like to launch the app, make sure you activate the virtual environment first:\
 `source ~/venvs/ampse_gui/bin/activate`\
-Then go to the directory of AMPSE_UI and type:\
+Then go to the directory of AMPSE_GUI and type:\
 `python interface_v6.py`
 
 
