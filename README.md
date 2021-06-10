@@ -1,4 +1,4 @@
-# AMPSE UI 
+# AMPSE GUI 
 Analog Mixed Signal Parameter Search Engine (AMPSE) is a module-linking-graph (MLG) assisted hybrid parameter search engine with NNs to meet the demand for the wide range of AMS circuit specifications in the modern system on a chip and faster time to market requirement. It accelerates the design process and cover a wide design parameter range by performing a two-phase hybrid search. In the first phase, the hybrid search exploits the adoption of NN regression models on the MLG in the global search, where it performs a fast and parallel gradient-based optimization on the design parameters. In the second phase, to attenuate the modeling inaccuracy, it performs a local search on the MLG using SPICE simulation. This step is further accelerated with the proposed gradient-based variable reduction technique that limits the number of selected design parameters for optimization.
 This is a guidence for installing and launching AMPSE on CentOS 7.
 ## PREREQUISITES
